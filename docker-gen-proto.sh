@@ -6,7 +6,7 @@ set -e # Exit immediately if a command exits with a non-zero status.
 set -x # Print commands and their arguments as they are executed
 
 # This script is used to generate protobuf files for all services with Docker.
-
+# description
 . ./.env
 
 gen_proto_go() {
